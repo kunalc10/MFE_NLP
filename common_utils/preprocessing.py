@@ -6,7 +6,7 @@ from nltk import word_tokenize
 
 from common_utils.ref_text_data import appos_dict
 from common_utils.ref_text_data import slangs_dict
-from common_utils.ref_text_data  import stop_words_list
+from common_utils.ref_text_data import stop_words_list
 from common_utils.ref_text_data import emo
 
 sb_stem = SnowballStemmer("english", ignore_stopwords=True)
